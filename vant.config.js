@@ -9,6 +9,12 @@ module.exports = {
     },
   },
   site: {
+    versions: [
+      {
+        label: '1.0.6',
+        link: 'https://youzan.github.io/vant/v1/',
+      },
+    ],
     title: 'ifly-ui',
     logo: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
     hideSimulator: true,
@@ -33,6 +39,10 @@ module.exports = {
           {
             path: 'ifly-button',
             title: 'IflyButton 按钮',
+          },
+          {
+            path: 'ifly-split',
+            title: 'IflySplit',
           },
         ],
       },
